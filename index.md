@@ -3,7 +3,7 @@ layout: page
 title: WorldMaker.net
 ---
 
-<img src="http://cdn.worldmaker.net/images/wmgear010.png" alt="WorldMaker is the master of time and space." class="pull-right" />
+<img src="http://cdn.worldmaker.net/images/wmgear010.png" alt="WorldMaker is the master of time and space." class="pull-right img-responsive" />
 
 ## Common Links
 
