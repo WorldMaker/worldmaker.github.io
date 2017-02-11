@@ -13,15 +13,8 @@ paginate_path: /archive:num/
 permalink: pretty
 exclude:
  - _archive
-
-# Collections
-collections:
-  worlds:
-    output: true
-    permalink: /world/:path/
-  works:
-    output: true
-    permalink: /work/:path/
+include:
+ - .well-known
 
 # Build settings
 markdown: kramdown
