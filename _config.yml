@@ -19,6 +19,6 @@ include:
 # Build settings
 markdown: kramdown
 
-# Gems
-gems:
+# Plugins
+plugins:
  - jekyll-redirect-from
