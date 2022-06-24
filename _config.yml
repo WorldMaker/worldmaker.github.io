@@ -1,10 +1,10 @@
 # Site settings
-title: Blog.WorldMaker.net
+title: WorldMaker.net
 email: me@worldmaker.net
 description: > # this means to ignore newlines until "baseurl:"
   Max Battcher's personal blog
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.worldmaker.net" # the base hostname & protocol for your site
+url: "http://worldmaker.net" # the base hostname & protocol for your site
 twitter_username: WorldMaker
 github_username:  WorldMaker
 encoding: utf-8
