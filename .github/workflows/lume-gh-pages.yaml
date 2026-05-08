@@ -34,13 +34,8 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Run bf build
-        run: deno task build
-        working-directory: ./src/bf/
-
       - name: Run site build
         run: deno task build
-        working-directory: ./src/site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
