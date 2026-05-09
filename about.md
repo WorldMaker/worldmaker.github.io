@@ -4,8 +4,7 @@ title: Colophon
 oldUrl: /colophon/
 ---
 
-This blog is now synthesized by the two-faced [Jekyll](http://jekyllrb.com)
-in [his most common laboratory](http://pages.github.com) or [Lume] on same.
+This blog is now built by [Lume].
 
 [Lume]: https://lume.land
 
