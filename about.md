@@ -4,7 +4,7 @@ title: Colophon
 oldUrl: /colophon/
 ---
 
-This blog is now built by [Lume].
+This personal site is now built by [Lume].
 
 [Lume]: https://lume.land
 
