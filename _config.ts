@@ -1,5 +1,5 @@
-import lume from "lume/mod.ts"
-import redirects from "lume/plugins/redirects.ts"
+import lume from "@lumeland/lume"
+import redirects from "@lumeland/plugin-redirects"
 
 const site = lume()
 
