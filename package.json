@@ -1,11 +1,21 @@
 {
   "name": "worldmaker.github.io",
+  "private": true,
+  "type": "module",
+  "allowScripts": {
+    "esbuild": false,
+    "fsevents": false,
+    "@parcel/watcher": false
+  },
   "version": "1.0.0",
   "description": "Personal site",
   "main": "index.js",
   "scripts": {
     "copy:theme": "robocopy /MIR node_modules/lcars-moderne/dist assets",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "lume build -s",
+    "build": "lume build",
+    "portless": "portless worldmaker pwsh -NoProfile -Command \"npx lume build -s -p $env:PORT\"",
+    "test": "lume build --dry-run"
   },
   "repository": {
     "type": "git",
@@ -18,6 +28,8 @@
   },
   "homepage": "https://github.com/WorldMaker/worldmaker.github.io#readme",
   "dependencies": {
+    "@lumeland/lume": "^4.0.2",
+    "@lumeland/plugin-redirects": "^1.0.0",
     "lcars-moderne": "^2.1.1"
   }
 }
