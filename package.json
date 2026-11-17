@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/WorldMaker/worldmaker.github.io#readme",
   "dependencies": {
+    "@lumeland/lume": "^4.0.2",
+    "@lumeland/plugin-redirects": "^1.0.0",
     "lcars-moderne": "^2.1.1"
   }
 }
