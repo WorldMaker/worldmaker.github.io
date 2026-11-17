@@ -1,5 +1,5 @@
 {
-  "name": "worldmakergithubio",
+  "name": "worldmaker.github.io",
   "private": true,
   "type": "module",
   "allowScripts": {
@@ -7,8 +7,26 @@
     "fsevents": false,
     "@parcel/watcher": false
   },
+  "version": "1.0.0",
+  "description": "Personal site",
+  "main": "index.js",
   "scripts": {
+    "copy:theme": "robocopy /MIR node_modules/lcars-moderne/dist assets",
     "serve": "lume build -s",
-    "build": "lume build"
+    "build": "lume build",
+    "test": "lume build --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldMaker/worldmaker.github.io.git"
+  },
+  "author": "Max Battcher <me@worldmaker.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorldMaker/worldmaker.github.io/issues"
+  },
+  "homepage": "https://github.com/WorldMaker/worldmaker.github.io#readme",
+  "dependencies": {
+    "lcars-moderne": "^2.1.1"
   }
 }
